@@ -84,5 +84,5 @@ with open(PyBankAnalysis, 'w', newline="") as output_file:
     csvwriter.writerow([f"Total Months: {months}"])
     csvwriter.writerow([f"Total: ${net_profit}"])
     csvwriter.writerow([f"Average Change: ${avg_profit}"])
-    csvwriter.writerow([f'Greatest Increase in Profits: {highest_month} (${greatest_increase})'])
+    csvwriter.writerow([f"Greatest Increase in Profits: {highest_month} (${greatest_increase})"])
     csvwriter.writerow([f"Greatest Decrease in Profits: {lowest_month} (${greatest_decrease})"])
