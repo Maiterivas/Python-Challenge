@@ -1,10 +1,23 @@
-# PyPoll Section for Homework
+# PyPoll Homework
 
-# -Calculates each of the following:
+#Import Python dependencies
+import os
+import csv
 
-# -The total number of votes cast
+#CSV Election Data file path
+PyPollCSV = os.path.join('Resources', 'election_data.csv')
 
-# -A complete list of candidates who received votes
+#Name the output text file
+output_file = "PyPoll.txt"
+
+#Define variables to be used
+votes = 0
+
+
+
+#Calculate the total number of votes cast
+
+#Populate a complete list of candidates who received votes
 
 # -The percentage of votes each candidate won
 
