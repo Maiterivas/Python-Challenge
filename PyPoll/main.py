@@ -44,7 +44,7 @@ for candidate in candidates_list:
     if candidate not in candidates:
       candidates.append(candidate)
 
-#Calculate percentage of votes for Stockham
+#Calculate percentage of votes for Stockham and round to 3 decimals
 stockham_percent = round((stockham_votes/votes)*100,3)
 #Calculate percentage of votes for DeGette
 degette_percent = round((degette_votes/votes)*100,3)
